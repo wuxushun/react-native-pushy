@@ -375,7 +375,7 @@ export const commands = {
         /local-cli/,
       ]);
     } catch (err) {
-      require('metro-bundler/src/babelRegisterOnly');
+      require('metro-bundler/build/babelRegisterOnly');
     }
 
     // This line fix issue #11
