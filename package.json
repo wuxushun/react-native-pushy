@@ -1,6 +1,6 @@
 {
   "name": "@cqingwang/react-native-update",
-  "version": "14.0.6",
+  "version": "15.0.1",
   "description": "react-native hot update",
   "main": "lib/index.js",
   "scripts": {
@@ -11,12 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/reactnativecn/react-native-pushy.git"
   },
-  "keywords": [
-    "react-native",
-    "ios",
-    "android",
-    "update"
-  ],
+  "keywords": ["react-native", "ios", "android", "update"],
   "author": "reactnativecn",
   "license": "BSD-3-Clause",
   "bugs": {
