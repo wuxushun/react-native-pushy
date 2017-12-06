@@ -375,7 +375,7 @@ export const commands = {
         /local-cli/,
       ]);
     } catch (err) {
-      require('metro-bundler/src/babelRegisterOnly');
+      require('metro-bundler/build/babelRegisterOnly');
     }
 
     // This line fix issue #11
@@ -446,12 +446,12 @@ export const commands = {
 
     await pack(realIntermedia, realOutput);
 
-    const v = await question('Would you like to publish it?(Y/N)');
-    if (v.toLowerCase() === 'y') {
-      await this.publish({args: [realOutput], options: {
-        platform,
-      }})
-    }
+    // const v = await question('Would you like to publish it?(Y/N)');
+    // if (v.toLowerCase() === 'y') {
+    //   await this.publish({args: [realOutput], options: {
+    //     platform,
+    //   }})
+    // }
   },
 
   async diff({args, options}) {

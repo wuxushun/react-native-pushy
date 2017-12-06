@@ -1,11 +1,11 @@
 {
-  "name": "react-native-update",
-  "version": "5.0.0",
+  "name": "@cqingwang/react-native-update",
+  "version": "15.0.2",
   "description": "react-native hot update",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "node_modules/.bin/babel local-cli/src --out-dir local-cli/lib"
+    "prepublishOnly": "node_modules/.bin/babel local-cli/src --out-dir local-cli/lib"
   },
   "repository": {
     "type": "git",
